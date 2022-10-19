@@ -1,0 +1,207 @@
+body{
+    font-family: 'montserrat';
+}
+
+
+/* navbar */
+#title{
+    background-color: #ff4c68;
+}
+.navbar-brand{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2.5rem;
+}
+
+.container-fluid{
+    padding: 3% 15% 5% 15%;
+}
+.navbar{
+    padding-bottom: 3rem;
+}
+.navi{
+    margin: 0 1rem;
+}
+
+h1{
+    line-height: 1.5;
+    font-weight: bolder;
+    font-size: 3.5rem;
+    color: white;
+}
+ 
+.phone{
+    width: 20%;
+    transform: rotate(25deg);
+    position: absolute;
+    right: 25%;
+}
+.download-button{
+    margin: 2.5rem 0 0 0.5rem;
+}
+
+@media (max-width:1068px){
+    .phone{
+        margin-top: 3rem;
+        width: 60%;
+        position: static;
+        transform: rotate(0);
+    }
+    .title-row{
+        text-align: center;
+    }
+}
+/* navbar ended */
+
+/* section features */
+
+/* icons */
+
+#features{
+    padding: 7% 15%;
+    background-color: #fff;
+    position: relative;
+}
+
+.feature-box{
+    text-align: center;
+    padding: 5%;
+}
+
+.features-icon{
+    color: #ef8172;
+    display: block;
+    size: 20%;
+    margin: 1rem auto;
+}
+
+.features-icon:hover{
+    color: #ff4c68;
+}
+ /* section features para and h3 */
+.col-lg-4 h3{
+    font-weight: bolder;
+    font-size: 1.5rem;
+}
+
+.col-lg-4 p{
+    color: #8f8f8f;
+}
+
+/* section feature ended */
+
+/* section testimonials */
+
+#testimonials{
+    background-color: #ef8172;
+    text-align: center;
+}
+
+.carousel-item{
+    padding: 7% 20%;
+}
+
+.carousel-item h2{
+    color: white;
+    font-weight: bolder;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+.dogo-image{
+    width: 10%;
+    border-radius: 100%;
+    margin: 1.25rem;
+}
+
+/* section testimonials ended */
+/* section press */
+
+#press{
+    background-color: #ef8172;
+    text-align: center;
+    padding-bottom: 3%;
+}
+
+
+/* press-image */
+
+.press-image{
+    width: 15%;
+    margin: 1.25rem 1.25rem 3.25rem 1.25rem;
+}
+
+/* press ended */
+
+/* pricing section started */
+#pricing{
+    text-align: center;
+    padding: 6.25rem;
+}
+#pricing h2{
+    font-family: 'Montserrat-black';
+    font-size: 3rem;
+    font-weight: bolder;
+}
+
+
+#pricing h3{
+    font-size: 2rem;
+    font-weight: bolder;
+}
+
+.card-button{
+    width: 100%;
+}
+
+.lh{
+    line-height: 0.83;
+}
+
+.p-col{
+    padding: 3% 2%;
+}
+
+
+/* pricing section ended */
+
+
+/* section cta  */
+
+
+#cta{
+
+    padding: 4rem 0;
+    text-align: center;
+    background-color: #ff4c68;
+}
+
+#cta h3{
+    font-size: 3rem;
+    margin: 0 auto;
+    color: #fff;
+    width: 70%;
+    font-weight: bolder;    
+}
+.download-button-cta{
+    margin: 2rem 1rem;
+}
+/* section cta ended */
+
+/* section footer */
+
+#footer{
+    padding: 5rem 0 7rem 0;
+    text-align: center;
+}
+
+.foot{
+    margin: 0.5rem;
+}
+
+#footer p{
+    font-size: 0.75rem;
+}
+
+
+
+
